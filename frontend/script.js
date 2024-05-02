@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
   
   // Add click event listener to the button
   button.addEventListener('click', function() {
-      const url = 'http://127.0.0.1:8000/blogPosts/';
+      const url = 'http://127.0.0.1:8000/blogPosts/5/';
       
       fetch(url)
           .then(response => {
